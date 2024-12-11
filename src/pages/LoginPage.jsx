@@ -35,7 +35,7 @@ const Login = ({ onLogin }) => {
         }}
       >
         <Typography variant="h5" gutterBottom>
-          LogiN
+          Login
         </Typography>
         {error && <Alert severity="error">{error}</Alert>}
         <TextField
